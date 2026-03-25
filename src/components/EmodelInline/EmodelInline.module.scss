@@ -16,10 +16,10 @@
   .tabButton {
     flex: none;
     padding: 1vw 6.5vw;
-    border: 0.15vw solid #980646;
+    border: 0.15vw solid #e7263a;
     border-radius: 1.5vw;
     font-size: 3.5vw;
-    color: #980646;
+    color: #e7263a;
     background: #fff;
     cursor: pointer;
     white-space: nowrap;
@@ -27,7 +27,7 @@
   }
   
   .activeTab {
-    background: #980646;
+    background: #e7263a;
     color: #fff;
   }
   

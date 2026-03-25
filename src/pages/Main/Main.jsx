@@ -51,37 +51,37 @@ const section3Contents = [
   {
     imgSrc: section3_Image1,
     title: "PREMIUM 01",
-    text1: `1,600세대 대단지 브랜드 아파트`,
-    text2: `브레인시티 중심에 들어서는<br />
-			      비스타동원 프리미엄 주거`,
+    text1: `북변 새도시의 미래가치`,
+    text2: `약 7천여 세대로 조성되는<br />
+			      북변 새도시 중심의 프리미엄 주거`,
     link: "/BusinessGuide/intro",
     linkText: "더 알아보기 >",
   },
   {
     imgSrc: section3_Image2,
     title: "PREMIUM 02",
-    text1: `첨단 산업도시 브레인시티`,
-    text2: `미래 산업 중심 도시의<br />
-			      핵심 입지를 누리는 주거`,
+    text1: `서울로 가까워지는 교통 프리미엄`,
+    text2: `걸포북변역 생활권과<br />
+			      서울 5호선 연장 기대를 누리는 입지`,
     link: "/LocationEnvironment/intro",
     linkText: "더 알아보기 >",
   },
   {
     imgSrc: section3_Image3,
     title: "PREMIUM 03",
-    text1: `입주민을 위한 특화 커뮤니티`,
-    text2: `피트니스, 독서실 등<br />
-			      다양한 커뮤니티 시설`,
-    link: "/LocationEnvironment/intro",
+    text1: `일상을 높이는 커뮤니티와 인프라`,
+    text2: `피트니스, 골프연습장, 작은도서관 등<br />
+			      다양한 커뮤니티와 편리한 생활 환경`,
+    link: "/ComplexGuide/community",
     linkText: "더 알아보기 >",
   },
   {
     imgSrc: section3_Image4,
     title: "PREMIUM 04",
-    text1: `차별화된 설계와 공간 구성`,
-    text2: `59 · 84A · 84B · 84C · 106 타입으로<br />
-			      라이프스타일을 고려한 설계`,
-    link: "/LocationEnvironment/primium",
+    text1: `차별화된 평면과 특화설계`,
+    text2: `66A · 66B · 84A · 84B 타입으로<br />
+			      라이프스타일을 고려한 공간 설계`,
+    link: "/LocationEnvironment/premium",
     linkText: "더 알아보기 >",
   },
 ];

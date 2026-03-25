@@ -11,20 +11,20 @@ import { Helmet } from "react-helmet-async";
 
 const Emodel = () => {
   const menuContents = [
-    { title: "59A", key: "59A" },
+    { title: "66A", key: "66A" },
     { title: "84A", key: "84A" },
-    { title: "84B", key: "84B" },
-    { title: "106", key: "106" },
+    // { title: "84B", key: "84B" },
+    // { title: "106", key: "106" },
   ];
 
   const vrUrls = {
-    "59A": "https://dongwonapt.co.kr/braincity_vista_dongwon/vr/59/vtour/tour.html",
-    "84A": "https://dongwonapt.co.kr/braincity_vista_dongwon/vr/84A/vtour/tour.html",
-    "84B": "https://dongwonapt.co.kr/braincity_vista_dongwon/vr/84B/vtour/tour.html",
-    "106": "https://dongwonapt.co.kr/braincity_vista_dongwon/vr/106/vtour/tour.html",
+    "66A": "https://sws360.com/2025/cow/theedition_emodel_66a/index.htm?media-index=1",
+    "84A": "https://sws360.com/2025/cow/theedition_emodel_84a/index.htm?media-index=1",
+    // "84B": "https://dongwonapt.co.kr/braincity_vista_dongwon/vr/84B/vtour/tour.html",
+    // "106": "https://dongwonapt.co.kr/braincity_vista_dongwon/vr/106/vtour/tour.html",
   };
 
-  const [selectedType, setSelectedType] = useState("59A");
+  const [selectedType, setSelectedType] = useState("66A");
   const { pathname } = useLocation();
   const [isScroll, setIsScroll] = useState(false);
 

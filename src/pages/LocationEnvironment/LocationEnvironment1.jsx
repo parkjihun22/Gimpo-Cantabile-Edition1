@@ -188,22 +188,8 @@ const LocationEnvironment1 = () => {
         ))}
       </div>
 
-      <img
-        src={page1}
-        className={styles.image2}
-        alt="김포 칸타빌 에디션입지환경 이미지"
-      />
 
 
-      <div className={styles.section2}>
-        {LocationSection.map((value, idx) => (
-          <LocationSectionBox
-            image={value.img}
-            title={value.titleText}
-            text={value.contentText}
-          />
-        ))}
-      </div>
 
       <div className={styles.commonBox}>
         <div className={styles.notice}>

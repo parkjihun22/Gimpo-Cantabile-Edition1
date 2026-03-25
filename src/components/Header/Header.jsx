@@ -111,9 +111,9 @@ export default function Header() {
         <div className={styles.mobileHeader}>
           <div onClick={() => setIsMobileMenu((v) => !v)}>
             {!isMobileMenu ? (
-              <AiOutlineMenu className={styles.icon} size={25} color="#980646" />
+              <AiOutlineMenu className={styles.icon} size={25} color="#e7263a" />
             ) : (
-              <IoCloseSharp className={styles.icon} size={25} color="#980646" />
+              <IoCloseSharp className={styles.icon} size={25} color="#e7263a" />
             )}
           </div>
           {isMobileMenu && (
@@ -127,7 +127,7 @@ export default function Header() {
             <img src={mainlogowhite} alt="Logo" className={styles.logo} />
           </Link>
           <a href="tel:1533-8848">
-            <IoCall className={styles.icon} size={25} color="#980646" />
+            <IoCall className={styles.icon} size={25} color="#e7263a" />
           </a>
         </div>
         {isInterestPopupOpen && (
