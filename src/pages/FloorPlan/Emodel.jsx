@@ -11,9 +11,20 @@ import { Helmet } from "react-helmet-async";
 
 const Emodel = () => {
   const menuContents = [
+		{ title: "66A", url: "/FloorPlan/59A" },
+		{ title: "66B", url: "/FloorPlan/59B" },
+		{ title: "84A", url: "/FloorPlan/84A" },
+		{ title: "84B", url: "/FloorPlan/84B" },
+		// { title: "106", url: "/FloorPlan/114A" },
+    // { title: "84C", url: "/FloorPlan/114B" },
+		// { title: "세대안내영상", url: "/FloorPlan/videos" }, // 세대안내영상 링크
+		{ title: "E-모델하우스", url: "/FloorPlan/Emodel" },
+  ];
+
+  const VRContents = [
     { title: "66A", key: "66A" },
     { title: "84A", key: "84A" },
-    // { title: "84B", key: "84B" },
+    // { title: "84B", key: "84B" },/
     // { title: "106", key: "106" },
   ];
 
@@ -128,7 +139,7 @@ const Emodel = () => {
 
 
       <div className={styles.tabMenu}>
-        {menuContents.slice(0, 5).map((tab, idx) => (
+        {VRContents.slice(0, 5).map((tab, idx) => (
           <button
             key={idx}
             onClick={() => setSelectedType(tab.key)}
