@@ -518,35 +518,36 @@ const Main = () => {
           <Header isChanged={isScroll} />
 
           <div className={styles.imageContainer}>
-          <img
-            src={mobileImageMain}
-            className={styles.mainImage}
-            alt="김포 칸타빌 에디션 모바일 메인 이미지"
-          />
-          <div className={styles.overlay}></div>
+            <img
+              src={mobileImageMain}
+              className={styles.mainImage}
+              alt="김포 칸타빌 에디션 모바일 메인 이미지"
+            />
+            <div className={styles.overlay}></div>
 
-          {/* 기존 텍스트 */}
-          <div className={styles.mainImageTextBox1}>
-          <div className={styles.mainImageTextSub1}>
-            브레인시티 중심에서 시작되는
-            <br />
-            <span className={styles.greyText1}>프리미엄 라이프</span>
-            <br />
-            미래가치를 가까이 누리는
-            <br />
-            <span className={styles.greyText1}>브레인시티 핵심 입지</span>
-            <br />
-            새로운 주거 기준을 제시하는
-            <br />
-            <span className={styles.greyText1}>김포 칸타빌 에디션</span>
-          </div>
-          <div className={styles.mainImageTitleBox1}>
-            <div className={styles.mainImageText1}>
-              김포 칸타빌 에디션
+            {/* 기존 텍스트 */}
+            <div className={styles.mainImageTextBox1}>
+              <div className={styles.mainImageTextSub1}>
+                북변 새도시 중심에서 시작되는
+                <br />
+                <span className={styles.greyText1}>프리미엄 라이프</span>
+                <br />
+                서울로 가까워지는
+                <br />
+                <span className={styles.greyText1}>교통 프리미엄</span>
+                <br />
+                새로운 주거 기준을 제시하는
+                <br />
+                <span className={styles.greyText1}>김포 칸타빌 에디션</span>
+              </div>
+
+              <div className={styles.mainImageTitleBox1}>
+                <div className={styles.mainImageText1}>
+                  김포 칸타빌 에디션
+                </div>
+              </div>
             </div>
           </div>
-        </div>
-        </div>
 
 
 
