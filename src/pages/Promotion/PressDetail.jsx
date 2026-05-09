@@ -45,7 +45,7 @@ export default function PressDetail() {
       <Bener />
       <MenuBar
         contents={[
-          { title: "언론보도", url: `/purgio/press` },
+          { title: "언론보도", url: `/김포 칸타빌 에디션/press` },
           { title: "방문예약등록", url: `/purgio/customer` },
         ]}
       />
